@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>String</h2>
+    <pre>
+    It looks like you mentioned "string." Are you referring to a string in programming,
+    a specific kind of string, or something else? 
+        
+   Strings are for storing text
+   Strings are written with quotes
+
+   Example:-
+          let text = "John Doe"
+        </pre>
+        <h3>String concatenation</h3>
+        <pre>
+            var string1 = "prep";
+            var string2 = "Bytes";
+            var string3 = string1 + string2;
+            console.log(string3);
+        </pre>
+        <h3>string concatenation</h3>
+        <pre>
+    The concat() method joins two or more strings.
+    The concat() method does not change the existing strings.
+    The concat() method returns a new string.
+    Example
+    var string1 = "prep";
+    var string2 = "Bytes";
+    var string3 = string1 + string2;
+    console.log(string3);
+    </pre>    
+    <h3>main method of string concatenation</h3>
+        <pre>
+        let str1 = "hello";
+        let str2 = "world";
+        let res1 = str1.concat(str2);
+        console.log(res1);
+        </pre>
+<h3>Slice()</h3>
+<pre>
+    The slice() method extracts a part of a string.
+    The slice() method returns the extracted part in a new string.
+    The slice() method does not change the original string.
+    The start and end parameters specifies the part of the string to extract.
+    The first position is 0, the second is 1, ...
+    A negative number selects from the end of the string.
+    Example
+    let string = "heyy....sab log camera on kar lo.... camera.....";
+    let result = str.slice(10, 25);
+    console.log(result)
+</pre>
+<h3> Substring()</h3>
+<pre>
+    The substring() method extracts characters, between two indices (positions), from a string, and returns the substring.
+    The substring() method extracts characters from start to end (exclusive).
+    The substring() method does not change the original string.
+    If start is greater than end, arguments are swapped: (4, 1) = (1, 4).
+    Start or end values less than 0, are treated as 0.
+    substring does not support negative index For substr second parameter in length.
+    Example
+    let str5 = "you will be an amazing develop";
+    let str6 = str5.substring(5, 7);
+    console.log(str6)
+</pre>
+<h3>Replace()</h3>
+<pre>
+    The replace() method searches a string for a value or a regular expression.
+    The replace() method returns a new string with the value(s) replaced.
+    The replace() method does not change the original string.
+    Example
+    let str10= "sharma";
+    //let res10 = str.replace(" ","/");
+    let res11 = str10.replace("h","i");
+    console.log(res11);
+</pre>
+<h3>trim()</h3>
+<pre>
+    The trim() method removes whitespace from both sides of a string.
+    The trim() method does not change the original string.
+    Example
+    let stringb = "heyy....sab log camera on kar lo.... camera.....";
+    let res4 = str.trim();
+    console.log(res4);
+</pre>
+<h3>split</h3>
+<pre>
+    The split() method splits a string into an array of substrings.
+    The split() method returns the new array.
+    The split() method does not change the original string
+    If (" ") is used as separator, the string is split between words.
+    Example
+    let string5 = "heyy....sab log camera on kar lo.... camera.....";
+    let res5 = str.split(" ");
+    //let res5 = str.split("log");
+    console.log(res5);
+</pre>
+    <script src="index.js"></script>
+</body>
+</html>
